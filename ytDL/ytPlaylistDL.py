@@ -35,7 +35,22 @@ if __name__ == "__main__":
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_GTyaiQFqiF_f7Y3dF_OAdS'), #Full Metal Alchemist
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HohkEJSj2TEzh8l7cvvC0g'), #GTO
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_Flfwst2z_QTqCkPjtcVNe1'), #Kimetsu no Yaiba
-    ]
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_Ef3xxUt0JTyx6MJjVu9c0D'), #SNK
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_GJO2UE8Tl3jwk_C3kN0xKq'), #Vinland Saga
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HRe7YKAMFCWPoTZIAeaVx4'), #Yakusoku no Neverland
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_GCtoInJSFypsNSmm0lFgEe'), #Boruto
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EeOCYAiwC09SRGpCK5woZ8'), #Pokemon
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_H5tpaoIkGz2RSigZdLxL_c'), #One Piece
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_E-yGGH5olegkA3WWkC5thF'), #Mononoke Hime
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EIzbLiPsYtFPMs3Kj3zgLj'), #Bakemonogatary
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HeTxavmyMAamiFkADICpsx'), #Hyouka
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_G9aZx2eaFCAIe4Da2GMLZ-'), #Kyoukai no Kanata
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_FfK0WL5yM3obqEpAfX8Q_4'), #GrandBlue
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EcU6ehzJR0XwfIRBGP9uz6'), #Parasyte
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EN-gM64gSixgPhL6juo94p'), #Tengen Toppa
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HwaZc--hPXsTQeXIOte8Z0'), #Steins Gate
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HntoomaIh4pNkErluHJDxS'), #Aldnoah Zero
+        ] 
 
     for playList in playlistList:
         playlistDic[playList.title] = playList
