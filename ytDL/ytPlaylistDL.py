@@ -1,9 +1,17 @@
+# %%
 from pytube import Playlist
+from pytube import Channel
 import pandas as pd
 import os
 
-doDL = True
+#%%
 
+doDL = False
+channelUrl = 'https://www.youtube.com/channel/UC8-FX4KsHFaNy0DQH7BXrdg'
+
+c = Channel(channelUrl)
+
+#%%
 if __name__ == "__main__":
     playlistDic = {}
     playlistList = [
@@ -50,6 +58,11 @@ if __name__ == "__main__":
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EN-gM64gSixgPhL6juo94p'), #Tengen Toppa
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HwaZc--hPXsTQeXIOte8Z0'), #Steins Gate
         Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HntoomaIh4pNkErluHJDxS'), #Aldnoah Zero
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_HyATz3oIqmxKM0yT6Rd4Xr'), #Rave Master
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_EZedbCZQbuDv0FBsyqrUuX'), #Hunter x Hunter
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_GzndQGF4cnGXpFaCCNpUjP'), #Samurai Shamploo
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_Fs4qb2S0lKxthJXe_B4wpc'), #Dr Stone
+        Playlist('https://www.youtube.com/playlist?list=PLsAXDMQVId_GStDkZBxCd8r6NDGuJEUnt'), #Dr Stone
         ] 
 
     for playList in playlistList:
